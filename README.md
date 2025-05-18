@@ -14,11 +14,12 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 - **Problems Solved:**
   - Finding the Peak in a Mountain Array
   - Finding the First and Last Occurrence of an Integer `k` in a Sorted Array
+  - Finding the pivot of an array
 
 ### 📅 Day 2
 - **Focus: Binary Search Applications**
 - **Problems Solved:**
-  1. Find the Peak of a Mountain Array
+  1. Find the Peak in an array 
   2. Search in a Rotated Sorted Array
   3. Find the Square Root of a Number using Binary Search
 
