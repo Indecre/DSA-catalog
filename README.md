@@ -15,6 +15,14 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
   - Finding the Peak in a Mountain Array
   - Finding the First and Last Occurrence of an Integer `k` in a Sorted Array
 
+### 📅 Day 2
+- **Focus: Binary Search Applications**
+- **Problems Solved:**
+  1. Find the Peak of a Mountain Array
+  2. Search in a Rotated Sorted Array
+  3. Find the Square Root of a Number using Binary Search
+
+
 ---
 
 ## 🎯 Goal
