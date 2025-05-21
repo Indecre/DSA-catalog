@@ -17,8 +17,8 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
   - Binary Search
   - Pivot in Array
 - **Problems Solved:**
-  1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) – [Solution](./solutions/day1/peak_mountain_array.py)
-  2. [Find First and Last Occurrence of an Element](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) – [Solution](./solutions/day1/first_last_occurrence.py)
+  1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) 
+  2. [Find First and Last Occurrence of an Element](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 ---
 
@@ -26,9 +26,9 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 - **Topics Covered:**
   - Binary Search Applications
 - **Problems Solved:**
-  1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) – [Solution](./solutions/day2/peak_mountain_array.py)
-  2. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) – [Solution](./solutions/day2/search_rotated_array.py)
-  3. [Square Root using Binary Search](https://leetcode.com/problems/sqrtx/) – [Solution](./solutions/day2/sqrt_binary_search.py)
+  1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)\
+  2. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+  3. [Square Root using Binary Search](https://leetcode.com/problems/sqrtx/) 
 
 ---
 
@@ -37,8 +37,8 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
   - Strings
   - String Arrays
 - **Problems Solved:**
-  1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) – [Solution](./solutions/day3/valid_palindrome.py)
-  2. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) – [Solution](./solutions/day3/reverse_words.py)
+  1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+  2. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) 
 
 ---
 
