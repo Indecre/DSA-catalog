@@ -42,6 +42,16 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 
 ---
 
+### 📅 Day 4
+- **Topics Covered:**
+  - Strings
+  - Sliding Window
+- **Problems Solved:**
+  1. [Implement strStr() - Substring Search](https://leetcode.com/problems/implement-strstr/)
+  2. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+  3. [String Compression](https://leetcode.com/problems/string-compression/)
+---
+
 ## 🎯 Goal
 To build a strong foundation in core DSA concepts and solve a wide range of problems with increasing difficulty, preparing for technical interviews and competitive programming.
 
