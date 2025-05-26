@@ -52,6 +52,14 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
   3. [String Compression](https://leetcode.com/problems/string-compression/)
 ---
 
+### 📅 Day 5
+- **Topics Covered:**
+  - 2D Arrays
+- **Problems Solved:**
+  1. Wave Print of a 2D Matrix
+  2. Spiral Print of a 2D Matrix
+---
+
 ## 🎯 Goal
 To build a strong foundation in core DSA concepts and solve a wide range of problems with increasing difficulty, preparing for technical interviews and competitive programming.
 
