@@ -58,6 +58,16 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 - **Problems Solved:**
   1. Wave Print of a 2D Matrix
   2. Spiral Print of a 2D Matrix
+ 
+---
+ 
+### 📅 Day 6
+- **Topics Covered:**
+  - 2D Arrays
+- **Problems Solved:**
+  1. Search in 2D Matrix I
+  2. Search in 2D Matrix II
+
 ---
 
 ## 🎯 Goal
