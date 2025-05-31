@@ -65,8 +65,9 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 - **Topics Covered:**
   - 2D Arrays
 - **Problems Solved:**
-  1. Search in 2D Matrix I
-  2. Search in 2D Matrix II
+  1. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+  2. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
 
 ---
 
