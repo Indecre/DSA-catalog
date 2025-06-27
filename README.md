@@ -71,6 +71,38 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 
 ---
 
+### 📅 Day 7
+- **Topic Covered:**
+  - Recursion
+- **Problem Solved:**
+  1. [Sort an Array Using Recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/) *(Note: commonly practiced on GFG)*
+
+---
+
+### 📅 Day 8
+- **Topic Covered:**
+  - Recursion
+- **Problem Solved:**
+  1. [Binary Search (Recursive)](https://leetcode.com/problems/binary-search/)
+
+---
+
+### 📅 Day 9
+- **Topic Covered:**
+  - Recursion
+- **Problems Solved:**
+  1. [Subsets](https://leetcode.com/problems/subsets/)
+  2. [Subsets II](https://leetcode.com/problems/subsets-ii/)
+
+---
+
+### 📅 Day 10
+- **Topic Covered:**
+  - Recursion
+- **Problem Solved:**
+  1. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+---
+
 ## 🎯 Goal
 To build a strong foundation in core DSA concepts and solve a wide range of problems with increasing difficulty, preparing for technical interviews and competitive programming.
 
