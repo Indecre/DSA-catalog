@@ -6,10 +6,6 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 
 ## 🗓️ Progress Tracker
 
-### ✅ Pre-requisites Covered
-- Sorting Algorithms
-- Searching Algorithms
-
 ---
 
 ### 📅 Day 1
