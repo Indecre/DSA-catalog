@@ -99,6 +99,14 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
   1. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 ---
 
+
+### 📅 Day 10
+- **Topic Covered:**
+  - Linked List
+- **Problem Solved:**
+  1. [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+---
+
 ## 🎯 Goal
 To build a strong foundation in core DSA concepts and solve a wide range of problems with increasing difficulty, preparing for technical interviews and competitive programming.
 
