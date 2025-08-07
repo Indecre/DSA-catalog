@@ -12,118 +12,173 @@ Welcome to my **DSA (Data Structures and Algorithms)** journey! This repository 
 - **Topics Covered:**
   - Binary Search
   - Pivot in Array
-- **Problems Solved:**
-  1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) 
-  2. [Find First and Last Occurrence of an Element](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
----
+#### 1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+- ✅ **Approach:** Binary search for `arr[mid] < arr[mid+1]` to locate the increasing slope end.
+- 💡 **Method Used:** `peakIndexInMountainArray(vector<int>& arr)`
+- 💻 **C++ Snippet:**
+  ```cpp
+  while (low < high) {
+      int mid = low + (high - low) / 2;
+      if (arr[mid] < arr[mid + 1]) low = mid + 1;
+      else high = mid;
+  }
+  return low;
+2. Find First and Last Occurrence
+✅ Approach: Modified binary search twice to find leftmost and rightmost index.
 
-### 📅 Day 2
-- **Topics Covered:**
-  - Binary Search Applications
-- **Problems Solved:**
-  1. [Find Peak in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)\
-  2. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
-  3. [Square Root using Binary Search](https://leetcode.com/problems/sqrtx/) 
+💡 Method Used: Binary search (2 passes)
 
----
+💻 C++ Snippet:
 
-### 📅 Day 3
-- **Topics Covered:**
-  - Strings
-  - String Arrays
-- **Problems Solved:**
-  1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-  2. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) 
+cpp
+Copy code
+int left = findBound(nums, target, true);
+int right = findBound(nums, target, false);
+📅 Day 2
+Topics Covered:
 
----
+Binary Search Applications
 
-### 📅 Day 4
-- **Topics Covered:**
-  - Strings
-  - Sliding Window
-- **Problems Solved:**
-  1. [Implement strStr() - Substring Search](https://leetcode.com/problems/implement-strstr/)
-  2. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
-  3. [String Compression](https://leetcode.com/problems/string-compression/)
----
+1. Search in Rotated Sorted Array
+✅ Approach: Modified binary search using inflection point logic.
 
-### 📅 Day 5
-- **Topics Covered:**
-  - 2D Arrays
-- **Problems Solved:**
-  1. Wave Print of a 2D Matrix
-  2. Spiral Print of a 2D Matrix
- 
----
- 
-### 📅 Day 6
-- **Topics Covered:**
-  - 2D Arrays
-- **Problems Solved:**
-  1. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
-  2. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+💡 Key Idea: Determine which half is sorted and reduce search space accordingly.
 
+2. Square Root using Binary Search
+✅ Approach: Binary search between 0 and x to find integer square root.
 
----
+💻 C++ Snippet:
 
-### 📅 Day 7
-- **Topic Covered:**
-  - Recursion
-- **Problem Solved:**
-  1. [Sort an Array Using Recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/) *(Note: commonly practiced on GFG)*
+cpp
+Copy code
+while (low <= high) {
+    long mid = (low + high) / 2;
+    if (mid * mid <= x) {
+        ans = mid;
+        low = mid + 1;
+    } else high = mid - 1;
+}
+📅 Day 3
+Topics Covered:
 
----
+Strings
 
-### 📅 Day 8
-- **Topic Covered:**
-  - Recursion
-- **Problem Solved:**
-  1. [Binary Search (Recursive)](https://leetcode.com/problems/binary-search/)
+String Arrays
 
----
+1. Valid Palindrome
+✅ Approach: Two-pointer technique ignoring non-alphanumerics.
 
-### 📅 Day 9
-- **Topic Covered:**
-  - Recursion
-- **Problems Solved:**
-  1. [Subsets](https://leetcode.com/problems/subsets/)
-  2. [Subsets II](https://leetcode.com/problems/subsets-ii/)
+💡 Method Used: isalnum() with lowercased comparison.
 
----
+2. Reverse Words in a String
+✅ Approach: Trim spaces, split by space, reverse the array.
 
-### 📅 Day 10
-- **Topic Covered:**
-  - Recursion
-- **Problem Solved:**
-  1. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
----
+💻 Python Snippet:
 
+python
+Copy code
+return " ".join(reversed(s.strip().split()))
+📅 Day 4
+Topics Covered:
 
-### 📅 Day 10
-- **Topic Covered:**
-  - Linked List
-- **Problem Solved:**
-  1. [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
----
+Strings
 
-## 🎯 Goal
+Sliding Window
+
+1. Implement strStr()
+✅ Approach: Brute-force substring match.
+
+2. Permutation in String
+✅ Approach: Sliding window with frequency arrays.
+
+3. String Compression
+✅ Approach: Two-pointer write-while-read technique.
+
+📅 Day 5
+Topics Covered:
+
+2D Arrays
+
+1. Wave Print (Custom Problem)
+✅ Approach: Alternate up-down column traversal.
+
+2. Spiral Print (Custom Problem)
+✅ Approach: Layer-wise clockwise traversal using boundaries.
+
+📅 Day 6
+Topics Covered:
+
+2D Arrays
+
+1. Search a 2D Matrix
+✅ Approach: Binary search on virtual 1D array.
+
+2. Search a 2D Matrix II
+✅ Approach: Start from top-right, move left/down.
+
+📅 Day 7
+Topic Covered:
+
+Recursion
+
+1. Sort Stack Using Recursion
+✅ Approach: Remove top, sort rest, insert sorted.
+
+📅 Day 8
+Topic Covered:
+
+Recursion
+
+1. Binary Search (Recursive)
+✅ Approach: Classic recursion with mid, low, high.
+
+📅 Day 9
+Topic Covered:
+
+Recursion
+
+1. Subsets
+✅ Approach: Backtracking by include/exclude current element.
+
+2. Subsets II
+✅ Approach: Similar to Subsets I but skip duplicates using sorting.
+
+📅 Day 10
+Topic Covered:
+
+Recursion
+
+1. Phone Number Letter Combinations
+✅ Approach: Backtracking with digit-to-char mapping.
+
+📅 Day 11
+Topic Covered:
+
+Linked List
+
+1. Reverse Linked List
+✅ Approach: Iterative pointer reversal using prev, curr.
+
+🎯 Goal
 To build a strong foundation in core DSA concepts and solve a wide range of problems with increasing difficulty, preparing for technical interviews and competitive programming.
 
----
+🛠️ Tools Used
+Language: Python / C++
 
-## 🛠️ Tools Used
-- Language: Python / C++
-- Platform: [LeetCode](https://leetcode.com/), [Codeforces](https://codeforces.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- Version Control: Git + GitHub
+Platforms: LeetCode, Codeforces, GeeksforGeeks
 
----
+Version Control: Git + GitHub
 
-## 🚀 How to Use
+🚀 How to Use
 Feel free to explore the daily logs, code snippets, and solutions. You can fork this repository and start your own DSA journey too!
 
----
-
-## 🙌 Let’s Connect!
+🙌 Let’s Connect!
 If you're also on your DSA journey, let’s connect and grow together!
 
+python
+Copy code
+
+---
+
+Let me know if you'd like this as a downloadable `README.md` file or 
