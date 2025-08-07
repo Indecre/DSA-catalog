@@ -199,6 +199,51 @@ ListNode* reverseList(ListNode* head) {
 }
 ```
 
+### 📅 Day 11
+- **Topics Covered:**
+  - Linked List
+
+#### 1. [Reverse a Linked List II](https://leetcode.com/problems/reverse-linked-list/)
+- ✅ **Approach:** Reverse the part of linked list which from left to right and then connect the reversed linked list to the res of the elements. i.e left to prevright->  and right to x where x -> next = prevleft
+- 💻 **C++ Snippet:**
+```cpp
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        if (!head || left == right) return head;
+
+        // Create a dummy node to simplify edge cases
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+
+        // Step 1: Move to node before 'left'
+        ListNode* prevLeft = dummy;
+        for (int i = 1; i < left; ++i) {
+            prevLeft = prevLeft->next;
+        }
+
+        // Step 2: Reverse from left to right
+        ListNode* curr = prevLeft->next;      // Node at 'left'
+        ListNode* prev = nullptr;
+        ListNode* tail = curr;                // This will become the tail after reversing
+
+        for (int i = 0; i < right - left + 1; ++i) {
+            ListNode* nextTemp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nextTemp;
+        }
+
+        // Step 3: Connect reversed part with remaining list
+        prevLeft->next = prev;    // 'prev' is new head of reversed sublist
+        tail->next = curr;        // 'curr' is the node after 'right'
+
+        return dummy->next;
+    }
+};
+
+```
+
 ---
 
 ## 🎯 Goal
